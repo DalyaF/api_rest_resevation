@@ -40,7 +40,7 @@ Vous pouvez utiliser n'importe quel client API (comme Postman) pour interagir av
 ### Points de terminaison de l'API
 
 1. Créer une réservation
-- Point de terminaison : `POST /api/reservation/create`
+- Point de terminaison : `POST api/reservation/create`
 - Corps de la requête:
 json
 {
@@ -52,14 +52,14 @@ json
 }
 
 2. Mettre à jour une réservation
-- Point de terminaison : PUT /api/reservation/update/{id}
+- Point de terminaison : PUT api/reservation/update/{id}
 - Corps de la requête : identique à la requête de création.
 
 3. Supprimer une réservation
-- Point de terminaison : DELETE /api/reservation/delete/{id}
+- Point de terminaison : DELETE api/reservation/delete/{id}
 
 4. Obtenir toutes les réservations
-- Point de terminaison: GET /api/reservations
+- Point de terminaison: GET api/reservations
 
 ## Tests
 
